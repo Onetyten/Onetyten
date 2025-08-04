@@ -1,0 +1,29 @@
+name: Generate Pac-Man Game
+
+on:
+  schedule:
+    # Run at midnight every day
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Generate Pac-Man Contribution Graph
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          # The action no longer supports 'output_dir'
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add pacman-contribution-graph.svg
+          git commit -m "Update Pac-Man contribution graph" || echo "No changes to commit"
+          git push

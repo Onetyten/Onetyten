@@ -4,10 +4,10 @@
 <img align="right" height="150" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbm9yN3Zrb3RuMTZjMnc1ZXh6YmZmc3M1eTA0YmkzOXY1ZjZkcGV3ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L8K62iTDkzGX6/giphy.gif"  />
 
 - 🤝 I’m currently looking for a frontend engineering job **ReactJs/React native**
-🔭 I’m currently working on **Conduit**, an open-source local service platform designed to connect people in communities with freelance workers and small businesses.
+🔭 I’m currently working on **Conduit**, an open-source platform designed to connect people in communities with small businesses.
 - 🌱 I’m currently developing my backend engineering skills
-- 👯I'm looking to collaborate on projects that improve the web development ecosystem, particularly open-source libraries and tools that help other developers build things more efficiently.
-- 💬 Ask me about **react, javascript or building scalable front-end architecture.**
+- 👯I'm looking to collaborate on open source projects
+- 💬 Ask me about **react, javascript or building front-end architecture.**
 - 📫 How to reach me **labaekaabdulrazaq@gmail.com**
 - ⚡ Fun fact, when I'm not coding, you can find me drawing or making 3d games and animations
 
@@ -61,6 +61,6 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/Onetyten/Onetyten/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/Onetyten/Onetyten/main/pacman-contribution-graph.svg" alt="Pac-Man Contribution Graph"/>
 
 ###
