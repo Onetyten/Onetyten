@@ -13,21 +13,10 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Generate Pac-Man Contribution Graph (Light)
-        uses: abozanona/pacman-contribution-graph@main
+      - name: Generate Pac-Man Contribution Graph
+        uses: abozanona/pacman-contribution-graph@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          output_dir: dist
-          output_file: pacman-contribution-graph-light.svg
-          theme: default
-
-      - name: Generate Pac-Man Contribution Graph (Dark)
-        uses: abozanona/pacman-contribution-graph@main
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          output_dir: dist
-          output_file: pacman-contribution-graph-dark.svg
-          theme: dark
 
       - name: Commit and Push Changes
         run: |
