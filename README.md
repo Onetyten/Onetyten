@@ -1,7 +1,11 @@
 
 <h2 align="left">Hi 👋, I'm Labaeka Adetayo Abdulrazaq</h2>
 <p>Turning complex ideas into simple, elegant frontend solutions</p>
-<img align="right" height="150" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbm9yN3Zrb3RuMTZjMnc1ZXh6YmZmc3M1eTA0YmkzOXY1ZjZkcGV3ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L8K62iTDkzGX6/giphy.gif"  />
+<br/>
+<div align="left" >
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbm9yN3Zrb3RuMTZjMnc1ZXh6YmZmc3M1eTA0YmkzOXY1ZjZkcGV3ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L8K62iTDkzGX6/giphy.gif" style="max-width: 100%; height: 150px;" />
+</div>
+<br/>
 
 - 🤝 I’m currently looking for a frontend engineering job **ReactJs/React native**
 🔭 I’m currently working on **Conduit**, an open-source platform designed to connect people in communities with small businesses.
