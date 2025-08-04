@@ -8,7 +8,7 @@
 <br/>
 
 - 🤝 I’m currently looking for a frontend engineering job **ReactJs/React native**
--🔭 I’m currently working on **Conduit**, an open-source platform designed to connect people in communities with small businesses.
+- 🔭 I’m currently working on **Conduit**, an open-source platform designed to connect people in communities with small businesses.
 - 🌱 I’m currently developing my backend engineering skills
 - 👯I'm looking to collaborate on open source projects
 - 💬 Ask me about **react, javascript or building front-end architecture.**
