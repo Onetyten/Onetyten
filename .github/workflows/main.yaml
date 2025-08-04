@@ -13,15 +13,27 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Generate Pac-Man Contribution Graph
+      - name: Generate Pac-Man Contribution Graph (Light)
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
+          output_dir: dist
+          output_file: pacman-contribution-graph-light.svg
+          theme: default
+
+      - name: Generate Pac-Man Contribution Graph (Dark)
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          output_dir: dist
+          output_file: pacman-contribution-graph-dark.svg
+          theme: dark
 
       - name: Commit and Push Changes
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
-          git add dist/pacman-contribution-graph.svg
-          git commit -m "Update Pac-Man contribution graph" || echo "No changes to commit"
+          git add dist/pacman-contribution-graph-light.svg
+          git add dist/pacman-contribution-graph-dark.svg
+          git commit -m "Update Pac-Man contribution graphs" || echo "No changes to commit"
           git push
