@@ -1,3 +1,6 @@
+# This is a simpler and more reliable workflow.
+# It uses a single action to both generate the SVG and commit it to the main branch.
+
 name: Generate Pac-Man Game
 
 on:
@@ -6,22 +9,18 @@ on:
   workflow_dispatch:
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
+      # Step 1: Check out the repository
       - uses: actions/checkout@v3
 
+      # Step 2: Generate and commit the SVG file
       - name: Generate Pac-Man Contribution Graph
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-
-      - name: Deploy to output branch
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: .
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          output_file: pacman-contribution-graph.svg
+          enable_commit: true

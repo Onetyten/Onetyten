@@ -61,6 +61,6 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/Onetyten/Onetyten/output/pacman-contribution-graph.svg" alt="Pac-Man Contribution Graph"/>
+<img src="https://raw.githubusercontent.com/Onetyten/Onetyten/main/pacman-contribution-graph.svg" alt="Pac-Man Contribution Graph"/>
 
 ###
