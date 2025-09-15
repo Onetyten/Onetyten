@@ -7,10 +7,8 @@
 </div>
 <br/>
 
-- 🤝 I’m currently looking for a frontend engineering job **ReactJs/React native**
 - 🔭 I’m currently working on **Conduit**, an open-source platform designed to connect people in communities with small businesses.
 - 🌱 I’m currently developing my backend engineering skills
-- 👯I'm looking to collaborate on open source projects
 - 💬 Ask me about **react, javascript or building front-end architecture.**
 - 📫 How to reach me **labaekaabdulrazaq@gmail.com**
 - ⚡ Fun fact, when I'm not coding, you can find me drawing or making 3d games and animations
